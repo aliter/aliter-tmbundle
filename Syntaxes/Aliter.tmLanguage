@@ -4,7 +4,7 @@
 <dict>
 	<key>comment</key>
 	<string>Textmate bundle for Elixir Programming Language.
-This bundle was based on the Ruby bundle by James Edward Gray II and there is a lot of room for improvements.</string>
+This bundle was based on the Elixir bundle by Jose Valim and Ruby bundle by James Edward Gray II. There is a lot of room for improvements.</string>
 	<key>fileTypes</key>
 	<array>
 		<string>ex</string>
