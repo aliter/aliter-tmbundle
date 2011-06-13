@@ -152,6 +152,14 @@ This bundle was based on the Ruby bundle by James Edward Gray II and there is a 
 			<string>keyword.control.pseudo-method.elixir</string>
 		</dict>
 		<dict>
+			<key>comment</key>
+			<string> just as above but being pseudo Aliter methods</string>
+			<key>match</key>
+			<string>(?&lt;!\.)\b(close|menu|name|register|say|sprite)\b(?![?!])|\bdefined\?|\bblock_given\?</string>
+			<key>name</key>
+			<string>keyword.control.pseudo-method.aliter</string>
+		</dict>
+		<dict>
 			<key>match</key>
 			<string>\b(true|nil|false)\b(?![?!])</string>
 			<key>name</key>
@@ -1098,11 +1106,11 @@ This bundle was based on the Ruby bundle by James Edward Gray II and there is a 
 			?\C-a    ?\M-a    ?\C-\M-\C-\M-a
 
 			examples (4th alternation = normal):
-			?a       ?A       ?0 
-			?*       ?"       ?( 
+			?a       ?A       ?0
+			?*       ?"       ?(
 			?.       ?#
-			
-			
+
+
 			the negative lookbehind prevents against matching
 			p(42.tainted?)
 			</string>
