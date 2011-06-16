@@ -51,7 +51,7 @@ This bundle was based on the Elixir bundle by Jose Valim and Ruby bundle by Jame
 	<key>keyEquivalent</key>
 	<string>^~E</string>
 	<key>name</key>
-	<string>Elixir</string>
+	<string>Aliter</string>
 	<key>patterns</key>
 	<array>
 		<dict>
