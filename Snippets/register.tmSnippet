@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>register {
+	'map: "$1",
+	'coordinates: {$2, $3},
+	'direction: '${4:north}
+}</string>
+	<key>name</key>
+	<string>register</string>
+	<key>scope</key>
+	<string>source.aliter</string>
+	<key>tabTrigger</key>
+	<string>register</string>
+	<key>uuid</key>
+	<string>AD718550-514F-4F89-B103-12DA83988185</string>
+</dict>
+</plist>
